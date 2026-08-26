@@ -1,0 +1,2 @@
+A programmer is someone who writes instructions of codes on how a comuter is supposed to carry out specific tasks.
+A software developer makes sure a software follows all the sdlc phases from correct requirement gathering to maintainance.
