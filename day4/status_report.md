@@ -1,0 +1,3 @@
+Day 1: Set up a Git repository for the training project and practiced the core version control workflow with git init, git status, git add, git commit, and git push to a remote GitHub repository.
+Day 2: Practiced command line navigation and project folder organization using cd, mkdir, ls/dir, and relative paths (cd ..) to create and manage a multi-folder project structure.
+Day 3: Debugged a ZeroDivisionError in a Python function by reproducing the error, reading and tracing the Python traceback to identify the exact failing line, and adding a conditional check to handle empty-list input.
