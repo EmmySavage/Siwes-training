@@ -5,4 +5,4 @@ Also wrote a professional status report summarizing my Day 1–3 work.
 Today: Learning Agile fundamentals sprints, backlogs, tickets, code review and creating GitHub Issues to practice writing real bug/feature tickets.
 Blockers: None currently, so no dependency on teammates yet.
 
-Also Backlog is the full list of task or features yet to be added to the software and its ranked by the one with highest priority task or features yet to be added to the software and its ranked by the one with highest priority.
+Also Backlog is the full list of task or features yet to be added to the software and its ranked by the one with highest priority task
