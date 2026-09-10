@@ -1,0 +1,11 @@
+h1 {
+    color: purple;
+}
+ul{
+    background-color: lightgray;
+    padding: 20px;
+}
+a{
+    color: blue;
+    font-weight: bold;
+}
