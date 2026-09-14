@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Hub</title>
+</head>
+<body>
+    <h1>Welcome to Movie Collection</h1>
+    <p>
+        Featured Movie:
+    </p>
+<ul>
+    {% for movie in movies %}
+        <li> {{ movie }} </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
