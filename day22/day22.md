@@ -1,0 +1,1 @@
+Today I learned how to use SQLite with Python to create and manage a database. I learned how to create a table, add records to it, and view the data using SQL commands like INSERT and SELECT. I also learned what a cursor does and why I need to use cursor() to create a cursor object.
