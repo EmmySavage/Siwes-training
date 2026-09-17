@@ -1,2 +1,7 @@
 Quick check: if someone tried to visit /login directly by typing the URL into their browser (which sends a GET request), and your route only has methods=["POST"], what do you think would happen? Would the page load normally, show an error, or something else? Why?
    The route does exist  for sure  Flask knows /login is a real path. The issue is that it only accepts POST requests (methods=["POST"]), but typing a URL into the browser’s address bar always sends a GET request. So Flask receives a GET request for a route that doesn’t allow GET and it responds with a specific error: 405 Method Not Allowed.
+   Today I learned that the login system I built is not a real secure login system. It accepts any username and password and only displays the username back to the user.
+
+A real login system would need to check whether the username exists and whether the password matches the user’s stored password. It should also store passwords securely using hashing instead of saving plain-text passwords. It would need proper sessions or authentication to keep the user logged in and protect pages that require login.
+
+So, the main difference is that my Day 21 code only receives and displays login information; a real login system verifies the user’s identity and controls access securely.
